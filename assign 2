@@ -1,0 +1,60 @@
+#1. If x = 20, what is the value of x //= 3?
+x=20
+print(x//3)
+#Output:6
+
+#2. If b = 7, what does b |= 3 give?
+b=7
+b|= 3
+print(b)
+#Output:7
+# 3. If d = 16, what does d >>= 2 give?
+d=16
+d>>=2
+print(d)
+#Output:4
+# 4. If c = 6, what does c ^= 3 give?
+c=6
+c^=3
+print(c)
+#Output:5
+
+# 5. Given nums = [10, 20, 30], test if 40 is not in nums.
+nums = [10, 20, 30]
+a=40
+print(a not in nums)
+#Output: True
+
+# 6. With d = {"a": 1, "b": 2}, check if "a" is in d. Then check if 1 is in d.
+d = {"a": 1, "b": 2}
+print('a'in d )
+#Output: True
+print(1 in d)
+#Output: False
+
+
+
+# 7. Find the result of 12 & 7 in decimal.
+result=12&7
+print(result)
+Output:4
+
+# 8. What does 16 >> 3 equal?
+a=16
+a>>3
+print(a)
+#Output:2
+
+
+# 9. Assign 100 to three variables a, b, c in a single line.
+a=b=c=100
+print(a,b,c)
+#Output:100 100 100
+
+
+
+# 10. If z = 2, what will z **= 3 give?
+z=2
+z**=3
+print(z)
+#Output:8
