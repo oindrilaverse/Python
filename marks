@@ -1,0 +1,6 @@
+#student passes if marks ≥ 40. Otherwise fails. Write a program that asks for marks and prints "Pass" or "Fail:
+marks=int(input("enter marks :"))
+if marks >=40 :
+  print ("pass :)")
+else:
+  print("fail:(")

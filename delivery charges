@@ -1,0 +1,7 @@
+#7. A shopping website gives free delivery if the order amount is at least 71000 or if the customer is a premium member. Write a Python program that asks the user for their order amount and whether they are a premium member, and then prints "Free Delivery" or "Delivery Charges Apply
+amount=int(input("enter order amount:)"))
+member=input("are you a premium member?(yes/no):")
+if amount>=7100 or member=="yes":
+  print ("Free Delivery :)")
+else:
+   print("Delivery Charges Apply :(")

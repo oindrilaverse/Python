@@ -1,0 +1,7 @@
+#4. A person can vote if age ≥ 18. Otherwise, print "Not Eligible to Vote".
+age=int(input("enter age:"))
+if age>=18:
+    print("eligible to vote:)")
+else:
+    print("Not Eligible to Vote :(")
+    

@@ -1,0 +1,11 @@
+#1. A cinema charges 7200 for adults and f150 for children. Write a program that asks the user for their age and prints the ticket price. 
+age=int(input("enter age:"))
+if age>=18 :
+  print("7200") 
+else :
+  print("150")
+
+
+
+
+
