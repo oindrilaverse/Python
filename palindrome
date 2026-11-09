@@ -1,0 +1,7 @@
+#2. Given a strings, the task is to check if it is palindrome or not. A palindrome string is a string that reads the same forwards and backwards.
+
+s="level"
+print(s==s[::-1])
+
+b="101" 
+print(b==b[::-1])

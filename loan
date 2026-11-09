@@ -1,0 +1,7 @@
+#5. A bank grants loans only if: Age ≥ 21 and Salary ≥ *25,000. Take age and salary as input and decide if the user is eligible or not.
+salary=int(input("enter salary:"))
+age=int(input("enter age:"))
+if age>=21 and salary>=25000:
+    print("eligible for Loan :)")
+else:
+    print("Not eligibe for Loan:(")

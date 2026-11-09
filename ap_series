@@ -1,0 +1,8 @@
+#5. Given starting points, common difference d, terms t. Print arithmetic progression series from it till t terms.
+s=5
+d=2
+t=4
+current=s
+for i in range (t):
+     print(current, "",end="")
+     current=current+d

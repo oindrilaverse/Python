@@ -1,0 +1,5 @@
+#1. Given a positive integer n, find its square root. If n is not a perfect square, then return only integer part of square root.
+import math
+n=10
+result=int(math.sqrt(n))
+print(result)

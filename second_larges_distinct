@@ -1,0 +1,13 @@
+#3. Given an list of positive integers of size n, the task is to find second largest distinct element in the array.
+nums=[100,5000,690]
+s=set(nums)
+s.remove(max(s))
+print(max(s))
+
+
+#other method
+
+number=[100,5000,789]
+unique=sorted(set(number))
+print(unique)
+print(unique[-2])

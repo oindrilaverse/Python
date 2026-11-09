@@ -1,0 +1,5 @@
+#4. Given an integer n. Print the multiplication table of it.
+n=10
+for i in range (1,11):
+    m=i*n
+    print(n,"x",i,"=",m)
