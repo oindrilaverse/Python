@@ -1,0 +1,1 @@
+#Write a Python program to store 10 student records containing roll number, name and marks in a file. Read the file and display students scoring more than 80 marks 

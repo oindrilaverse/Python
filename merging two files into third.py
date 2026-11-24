@@ -1,0 +1,12 @@
+#)Write a program to merge the contents of two text files into a third file
+file=open("student.txt","r")
+data1=file.read()
+file.close()
+file=open("new_student.txt","r")
+data2=file.read()
+file.close()
+file=open("third_student.txt","w+")
+file.write(data1+"\n"+ data2)
+show=file.readlines()
+file.close()
+print(show)

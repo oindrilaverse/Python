@@ -1,0 +1,4 @@
+f=open("student.txt","r")
+data=f.read()
+print("contents of a file :",data)
+f.close()

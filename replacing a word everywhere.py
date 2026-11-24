@@ -1,0 +1,12 @@
+#)write a program to replace all occurrences of a particular word with another word in a text file
+f=open("student.txt","r")
+dat=f.read()
+old=input("enter old word:")
+new=input("enter new word:")
+f.close()
+f=open("student.txt","w+")
+data=dat.replace(old,new)
+f.write(data)
+replaced=f.read()
+f.close()
+print(replaced)
