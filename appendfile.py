@@ -1,0 +1,6 @@
+f=open("student.txt","a")
+name=input("enter name:")
+roll=input("enter roll:")
+f.write(name+"\n")
+f.write(roll+"\n")
+f.close()
