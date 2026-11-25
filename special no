@@ -1,0 +1,17 @@
+#Write a program in Python to test the given number is special number or not. Special No : abc=a! + b! + c! (Ex : 145= 1! + 4! +5! ) 
+def special(n):
+  temp = n
+  s=0
+  while n>0:
+    d = n%10
+    fact = 1
+    for i in range(1, d +1):
+     fact=fact*i
+s=s+fact
+n=n//10
+if s==temp:
+     print("speacial no")
+  else:
+    print("no")
+n=int(input("enter no"))
+special(n)
